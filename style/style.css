@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1 {
+    text-align: center;
+
+}
+
+.main{
+    text-align: center;
+}
+.block1{
+    border: 3px solid black;
+    width: 30%;
+    display: inline-block;
+    text-align: auto;
+    margin: 10px;
+    text-align: left;
+    background-color: darkgray;
+    
+}
+.block2{
+    border: 3px solid black;
+    width: 30%;
+    display: inline-block;
+    text-align: auto;
+    margin: 10px;
+    text-align: left;
+    background-color: darkgray;
+    
+}
+
+.block3{
+    border: 3px solid black;
+    width: 30%;
+    display: inline-block;
+    text-align: auto;
+    margin: 10px;
+    text-align: left;
+    background-color: darkgray;
+    
+}
+
+
+.head1{
+    border: 3px solid black;
+    float: right;
+    width: 40%;
+    margin: -3px;
+    text-align: center;
+    background-color: darksalmon;
+
+    
+}
+.head2{
+    border: 3px solid black;
+    float: right;
+    width: 40%;
+    margin: -3px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    
+}
+.head3{
+    border: 3px solid black;
+    float: right;
+    width: 40%;
+    margin: -3px;
+    text-align: center;
+    background-color: sandybrown;
+    
+}
+p {
+    display: inline-block;
+    padding: 10px;
+    text-align: auto;
+    font-weight: 1000;
+}
+.main {
+    width: 100%;
+  }
+
+@media (max-width: 992px){
+    .block1{
+        width: 40%;
+    }
+    .block2{
+        width: 40%;
+    }
+    .block3{
+        width: 40%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .block1{
+        width: 40%;
+    }
+    .block2{
+        width: 40%;
+    }
+    .block3{
+        width: 84%;
+    }
+    .head3{
+        width: 20%;
+    }
+}
+@media (max-width: 767px){
+    .block1{
+        width: 80%;
+    }
+    .block2{
+        width: 80%;
+    }
+    .block3{
+        width: 80%;
+    }
+}
