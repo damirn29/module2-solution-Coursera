@@ -45,7 +45,8 @@ h1 {
 
 
 .head1{
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     float: right;
     width: 40%;
     text-align: center;
@@ -54,7 +55,8 @@ h1 {
     
 }
 .head2{
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     float: right;
     width: 40%;
     text-align: center;
@@ -63,7 +65,8 @@ h1 {
     
 }
 .head3{
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
     float: right;
     width: 40%;
     text-align: center;
